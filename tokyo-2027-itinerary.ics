@@ -1,0 +1,476 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tokyo Solo Journal//2027 Trip//ZH-TW
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:東京・一人旅 2027
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+X-LIC-LOCATION:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:20270221-atami@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:【待確認集合時間】熱海花火一日團
+DESCRIPTION:集合與散團時間待確認。花火日期請以旅行團訂
+ 單及官方公告為準；今晚可能超過 20:00 才返回東京。\n
+ 新小岩 → 旅行團指定集合點 → 熱海 → 指定散團點 → 
+ 新小岩。集合地點未提供，請依團體通知安排接駁交通
+ 。\n
+LOCATION:集合地點待確認；目的地為熱海
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER;VALUE=DATE-TIME:20270220T000000Z
+ACTION:DISPLAY
+DESCRIPTION:明日熱海一日團：請核對集合地點、時間、憑證
+ 與散團交通。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22-garden-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270222T100000
+DTEND;TZID=Asia/Tokyo:20270222T111500
+SUMMARY:【預計】清澄庭園
+DESCRIPTION:繞池慢慢走，找個位置看庭石與水面。預留一小
+ 時，不急著趕下一站。\n今天是第四個星期一，深川江戶
+ 資料館按一般休館規則不安排入內；營業及休館異動仍
+ 請行前確認。\n所有時間皆為日本時間；非預約紀錄。
+LOCATION:清澄庭園
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%B8%85%E6%BE%84%E5%B
+ A%AD%E5%9C%92
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】清澄庭園，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22-coffee-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270222T113000
+DTEND;TZID=Asia/Tokyo:20270222T121500
+SUMMARY:【預計】ARiSE COFFEE ROASTERS
+DESCRIPTION:挑一杯喜歡的咖啡；若想久坐，可改找附近有空
+ 位的咖啡店。之後在清澄白河午餐。\n今天是第四個星期
+ 一，深川江戶資料館按一般休館規則不安排入內；營業
+ 及休館異動仍請行前確認。\n所有時間皆為日本時間；非
+ 預約紀錄。
+LOCATION:ARiSE COFFEE ROASTERS 清澄白河
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=ARiSE%20COFFEE%20ROASTE
+ RS%20%E6%B8%85%E6%BE%84%E7%99%BD%E6%B2%B3
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】ARiSE COFFEE ROASTERS，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22-fudo-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270222T140000
+DTEND;TZID=Asia/Tokyo:20270222T144500
+SUMMARY:【預計】深川不動堂
+DESCRIPTION:午餐後前往門前仲町，看看參道與境內建築。參
+ 拜與活動遵守現場規範。\n今天是第四個星期一，深川江
+ 戶資料館按一般休館規則不安排入內；營業及休館異動
+ 仍請行前確認。\n所有時間皆為日本時間；非預約紀錄。
+LOCATION:深川不動堂
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%B7%B1%E5%B7%9D%E4%B
+ 8%8D%E5%8B%95%E5%A0%82
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】深川不動堂，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22-hachiman-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270222T150000
+DTEND;TZID=Asia/Tokyo:20270222T160000
+SUMMARY:【預計】富岡八幡宮
+DESCRIPTION:與深川不動堂相距不遠，逛境內再到周邊商店街
+ 走走。\n今天是第四個星期一，深川江戶資料館按一般休
+ 館規則不安排入內；營業及休館異動仍請行前確認。\n所
+ 有時間皆為日本時間；非預約紀錄。
+LOCATION:富岡八幡宮
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E5%B2%A1%E5%8
+ 5%AB%E5%B9%A1%E5%AE%AE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】富岡八幡宮，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22-market-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270222T173000
+DTEND;TZID=Asia/Tokyo:20270222T184500
+SUMMARY:【預計】新小岩晚餐與超市
+DESCRIPTION:回住宿附近吃飯，逛南口商店街與西友，補早餐
+ 、水果和零食。\n今天是第四個星期一，深川江戶資料館
+ 按一般休館規則不安排入內；營業及休館異動仍請行前
+ 確認。\n所有時間皆為日本時間；非預約紀錄。
+LOCATION:西友 新小岩店
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E5%8F%8B%20%E
+ 6%96%B0%E5%B0%8F%E5%B2%A9%E5%BA%97
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】新小岩晚餐與超市，30 分鐘後的預計行
+ 程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23-cemetery-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270223T093000
+DTEND;TZID=Asia/Tokyo:20270223T103000
+SUMMARY:【預計】谷中靈園與周邊老街
+DESCRIPTION:從日暮里站往谷中方向走，沿樹木與寺院認識這
+ 片老街區。\n今天是日本天皇誕生日國定假日。咖啡與午
+ 餐避開尖峰，熱門店若候位太久就改附近店家。\n所有時
+ 間皆為日本時間；非預約紀錄。
+LOCATION:谷中霊園
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E8%B0%B7%E4%B8%AD%E9%9
+ C%8A%E5%9C%92
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】谷中靈園與周邊老街，30 分鐘後的預計
+ 行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23-cafe-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270223T103000
+DTEND;TZID=Asia/Tokyo:20270223T113000
+SUMMARY:【預計】カヤバ珈琲
+DESCRIPTION:在老屋裡喝杯咖啡。假日可能候位，營業安排請
+ 出發前確認。\n今天是日本天皇誕生日國定假日。咖啡與
+ 午餐避開尖峰，熱門店若候位太久就改附近店家。\n所有
+ 時間皆為日本時間；非預約紀錄。
+LOCATION:カヤバ珈琲
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%A4%E3%8
+ 3%90%E7%8F%88%E7%90%B2
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】カヤバ珈琲，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23-nezu-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270223T120000
+DTEND;TZID=Asia/Tokyo:20270223T130000
+SUMMARY:【預計】根津神社
+DESCRIPTION:散步到根津神社，看社殿與鳥居。之後在根津或
+ 千駄木一帶午餐。\n今天是日本天皇誕生日國定假日。咖
+ 啡與午餐避開尖峰，熱門店若候位太久就改附近店家。\n
+ 所有時間皆為日本時間；非預約紀錄。
+LOCATION:根津神社
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%A0%B9%E6%B4%A5%E7%A
+ 5%9E%E7%A4%BE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】根津神社，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23-ginza-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270223T143000
+DTEND;TZID=Asia/Tokyo:20270223T160000
+SUMMARY:【預計】谷中銀座商店街
+DESCRIPTION:慢慢挑點心、雜貨與伴手禮，再經夕燒階梯往日
+ 暮里站回程。預計 18:30 前回新小岩。\n今天是日本天皇
+ 誕生日國定假日。咖啡與午餐避開尖峰，熱門店若候位
+ 太久就改附近店家。\n所有時間皆為日本時間；非預約紀
+ 錄。
+LOCATION:谷中銀座商店街
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E8%B0%B7%E4%B8%AD%E9%8
+ A%80%E5%BA%A7%E5%95%86%E5%BA%97%E8%A1%97
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】谷中銀座商店街，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24-hachiman-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270224T101500
+DTEND;TZID=Asia/Tokyo:20270224T114500
+SUMMARY:【預計】若宮大路、鶴岡八幡宮
+DESCRIPTION:從鎌倉站沿若宮大路前往八幡宮，接著在附近午
+ 餐。\n這是小說舞台周邊的散步路線；書中文具店不是可
+ 直接入內參觀的實體店。週三部分咖啡店公休，請先確
+ 認。\n所有時間皆為日本時間；非預約紀錄。
+LOCATION:鶴岡八幡宮
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E5%B2%A1%E5%8
+ 5%AB%E5%B9%A1%E5%AE%AE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】若宮大路、鶴岡八幡宮，30 分鐘後的預
+ 計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24-gu-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270224T124500
+DTEND;TZID=Asia/Tokyo:20270224T133000
+SUMMARY:【預計】鎌倉宮
+DESCRIPTION:搭公車或依體力步行前往，在東側較安靜的街區
+ 放慢腳步。\n這是小說舞台周邊的散步路線；書中文具店
+ 不是可直接入內參觀的實體店。週三部分咖啡店公休，
+ 請先確認。\n所有時間皆為日本時間；非預約紀錄。
+LOCATION:鎌倉宮
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E9%8E%8C%E5%80%89%E5%A
+ E%AE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】鎌倉宮，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24-egara-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270224T134500
+DTEND;TZID=Asia/Tokyo:20270224T143000
+SUMMARY:【預計】荏柄天神社
+DESCRIPTION:走訪附近神社，梅花是否盛開依當年天氣；不要
+ 為花況壓縮散步時間。\n這是小說舞台周邊的散步路線；
+ 書中文具店不是可直接入內參觀的實體店。週三部分咖
+ 啡店公休，請先確認。\n所有時間皆為日本時間；非預約
+ 紀錄。
+LOCATION:荏柄天神社
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E8%8D%8F%E6%9F%84%E5%A
+ 4%A9%E7%A5%9E%E7%A4%BE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】荏柄天神社，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24-komachi-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270224T150000
+DTEND;TZID=Asia/Tokyo:20270224T161500
+SUMMARY:【預計】小町通與咖啡時間
+DESCRIPTION:回車站方向，找營業中的喫茶店坐下，逛小店與
+ 點心鋪。\n這是小說舞台周邊的散步路線；書中文具店不
+ 是可直接入內參觀的實體店。週三部分咖啡店公休，請
+ 先確認。\n所有時間皆為日本時間；非預約紀錄。
+LOCATION:小町通り 鎌倉
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E7%94%BA%E9%8
+ 0%9A%E3%82%8A%20%E9%8E%8C%E5%80%89
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】小町通與咖啡時間，30 分鐘後的預計行
+ 程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24-market-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270224T161500
+DTEND;TZID=Asia/Tokyo:20270224T164500
+SUMMARY:【預計】鎌倉東急ストア
+DESCRIPTION:回程前看看當地食品與零食，最晚約 17:00 從鎌
+ 倉站離開。\n這是小說舞台周邊的散步路線；書中文具店
+ 不是可直接入內參觀的實體店。週三部分咖啡店公休，
+ 請先確認。\n所有時間皆為日本時間；非預約紀錄。
+LOCATION:鎌倉とうきゅう
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E9%8E%8C%E5%80%89%E3%8
+ 1%A8%E3%81%86%E3%81%8D%E3%82%85%E3%81%86
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】鎌倉東急ストア，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:25-exhibition-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270225T100000
+DTEND;TZID=Asia/Tokyo:20270225T130000
+SUMMARY:【待確認】奧賽館藏特展
+DESCRIPTION:預留約 3 小時看展；尚未確認展期或訂票。確認
+ 正式展名後，再填入展館地址。\n奧賽特展的正式名稱、
+ 展期與場館尚未核實，10:00 只是預留時段。下列上野行
+ 程僅在展館位於上野時適用。\n所有時間皆為日本時間；
+ 非預約紀錄。
+LOCATION:展館待確認
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【待確認】奧賽館藏特展，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:25-park-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270225T140000
+DTEND;TZID=Asia/Tokyo:20270225T151500
+SUMMARY:【彈性備案】上野公園與不忍池
+DESCRIPTION:僅適用於展館在上野：午餐與咖啡後散步。看展
+ 累了，也可以縮短或跳過。\n奧賽特展的正式名稱、展期
+ 與場館尚未核實，10:00 只是預留時段。下列上野行程僅
+ 在展館位於上野時適用。\n所有時間皆為日本時間；非預
+ 約紀錄。
+LOCATION:不忍池 上野
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E4%B8%8D%E5%BF%8D%E6%B
+ 1%A0%20%E4%B8%8A%E9%87%8E
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【彈性備案】上野公園與不忍池，30 分鐘後的預
+ 計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:25-ameyoko-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270225T153000
+DTEND;TZID=Asia/Tokyo:20270225T170000
+SUMMARY:【彈性備案】阿美橫町、御徒町
+DESCRIPTION:僅適用於上野路線：逛食品、日用品和小店，晚
+ 餐後 19:00 左右回程。\n奧賽特展的正式名稱、展期與場
+ 館尚未核實，10:00 只是預留時段。下列上野行程僅在展
+ 館位於上野時適用。\n所有時間皆為日本時間；非預約紀
+ 錄。
+LOCATION:アメ横商店街
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E3%82%A2%E3%83%A1%E6%A
+ 8%AA%E5%95%86%E5%BA%97%E8%A1%97
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【彈性備案】阿美橫町、御徒町，30 分鐘後的預
+ 計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:26-bridge-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270226T100000
+DTEND;TZID=Asia/Tokyo:20270226T111500
+SUMMARY:【預計】日本橋與榛原和紙店
+DESCRIPTION:看日本橋橋體，再挑信封、和紙與書寫用品，延
+ 續鎌倉的文具店心情。\n若今天返國，請依航班保留取行
+ 李與機場交通時間。航班尚未提供，本日行程可隨時縮
+ 短。\n所有時間皆為日本時間；非預約紀錄。
+LOCATION:榛原 日本橋
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%A6%9B%E5%8E%9F%20%E
+ 6%97%A5%E6%9C%AC%E6%A9%8B
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】日本橋與榛原和紙店，30 分鐘後的預計
+ 行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:26-mitsukoshi-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270226T113000
+DTEND;TZID=Asia/Tokyo:20270226T133000
+SUMMARY:【預計】三越本店、三井本館
+DESCRIPTION:欣賞建築與百貨空間，順道午餐、喝咖啡；食品
+ 樓層也值得慢慢看。\n若今天返國，請依航班保留取行李
+ 與機場交通時間。航班尚未提供，本日行程可隨時縮短
+ 。\n所有時間皆為日本時間；非預約紀錄。
+LOCATION:日本橋三越本店
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%E6%A
+ 9%8B%E4%B8%89%E8%B6%8A%E6%9C%AC%E5%BA%97
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】三越本店、三井本館，30 分鐘後的預計
+ 行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:26-coredo-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270226T134500
+DTEND;TZID=Asia/Tokyo:20270226T144500
+SUMMARY:【預計】COREDO 室町
+DESCRIPTION:逛日式雜貨與食品，若行李已滿，選一樣真正喜
+ 歡的就好。\n若今天返國，請依航班保留取行李與機場交
+ 通時間。航班尚未提供，本日行程可隨時縮短。\n所有時
+ 間皆為日本時間；非預約紀錄。
+LOCATION:COREDO室町
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=COREDO%E5%AE%A4%E7%94%B
+ A
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】COREDO 室町，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:26-tokyo-2027@tokyo-journal.local
+DTSTAMP:20261026T050657Z
+DTSTART;TZID=Asia/Tokyo:20270226T151500
+DTEND;TZID=Asia/Tokyo:20270226T164500
+SUMMARY:【彈性備案】東京站丸之內、丸善書店
+DESCRIPTION:航班允許再走到東京站周邊，看紅磚站舍、逛丸
+ 善丸之內本店。若趕飛機，直接跳過。\n若今天返國，請
+ 依航班保留取行李與機場交通時間。航班尚未提供，本
+ 日行程可隨時縮短。\n所有時間皆為日本時間；非預約紀
+ 錄。
+LOCATION:丸善 丸の内本店
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E4%B8%B8%E5%96%84%20%E
+ 4%B8%B8%E3%81%AE%E5%86%85%E6%9C%AC%E5%BA%97
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【彈性備案】東京站丸之內、丸善書店，30 分鐘
+ 後的預計行程。
+END:VALARM
+END:VEVENT
+END:VCALENDAR
