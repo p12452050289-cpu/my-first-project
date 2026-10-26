@@ -1,0 +1,731 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tokyo Travel Journal//Ten Days 2027//ZH-TW
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:東京・10天9夜 家族旅
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+X-LIC-LOCATION:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:17-flight-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Taipei:20270217T133000
+DTEND;TZID=Asia/Tokyo:20270217T173500
+SUMMARY:【航班】JL8664｜桃園 T2 → 成田 T2
+DESCRIPTION:13:30 台灣時間起飛；17:35 日本時間抵達。依你提
+ 供的航班資料，行前再核對航空公司通知。\nJL8664：13:30 
+ 桃園 T2 起飛（台灣時間），17:35 成田 T2 抵達（日本時間
+ ）。因入境與交通，今晚可能超過 20:00 才入住。\n家族
+ 三人旅；航班依起降地當地時間，其餘為日本時間。請
+ 核對最終訂單。
+LOCATION:桃園國際機場 第二航廈
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%A1%83%E5%9C%92%E5%9
+ C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%20%E7%AC%AC%E4%BA%8C%E8%88%AA%E5%BB%88
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:【航班】JL8664｜桃園 T2 → 成田 T2，起飛前 3 小
+ 時提醒。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:17-arrival-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270217T173500
+DTEND;TZID=Asia/Tokyo:20270217T190000
+SUMMARY:【預計】抵達成田第二航廈
+DESCRIPTION:入境、領行李、準備交通 IC 卡，再到 JR 車站；
+ 實際通關速度會影響入住時間。\nJL8664：13:30 桃園 T2 起
+ 飛（台灣時間），17:35 成田 T2 抵達（日本時間）。因入
+ 境與交通，今晚可能超過 20:00 才入住。\n家族三人旅；
+ 航班依起降地當地時間，其餘為日本時間。請核對最終
+ 訂單。
+LOCATION:成田空港 第2ターミナル
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%88%90%E7%94%B0%E7%A
+ 9%BA%E6%B8%AF%20%E7%AC%AC2%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】抵達成田第二航廈，30 分鐘後的預計行
+ 程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:17-train-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270217T190000
+DTEND;TZID=Asia/Tokyo:20270217T203000
+SUMMARY:【預計】搭 JR 快速前往新小岩
+DESCRIPTION:依通關速度可在 19:00～20:30 間移動。上車前確認
+ 目的地與是否直通新小岩。\nJL8664：13:30 桃園 T2 起飛（
+ 台灣時間），17:35 成田 T2 抵達（日本時間）。因入境與
+ 交通，今晚可能超過 20:00 才入住。\n家族三人旅；航班
+ 依起降地當地時間，其餘為日本時間。請核對最終訂單
+ 。
+LOCATION:空港第2ビル駅 JR
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E7%A9%BA%E6%B8%AF%E7%A
+ C%AC2%E3%83%93%E3%83%AB%E9%A7%85%20JR
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】搭 JR 快速前往新小岩，30 分鐘後的預
+ 計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:17-checkin-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270217T203000
+DTEND;TZID=Asia/Tokyo:20270217T213000
+SUMMARY:【預計】新小岩入住、晚餐與超市
+DESCRIPTION:入住後在附近用餐，逛南口商店街或 SEIYU，買隔
+ 天早餐、飲料和宵夜；營業依店家公告。\nJL8664：13:30 桃
+ 園 T2 起飛（台灣時間），17:35 成田 T2 抵達（日本時間）
+ 。因入境與交通，今晚可能超過 20:00 才入住。\n家族三
+ 人旅；航班依起降地當地時間，其餘為日本時間。請核
+ 對最終訂單。
+LOCATION:新小岩駅
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%B0%8F%E5%B
+ 2%A9%E9%A7%85
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】新小岩入住、晚餐與超市，30 分鐘後的
+ 預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:18-depart-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270218T071500
+DTEND;TZID=Asia/Tokyo:20270218T081500
+SUMMARY:【預計】新小岩出發
+DESCRIPTION:先吃早餐，帶行動電源、保暖衣物與電子門票。
+ \nDisneySea 是建議園區，尚未代表已購票。依提供的現行
+ 規則，2/18 門票預計 2026/12/18 日本時間 14:00 開賣；票價
+ 、開園時間及設施以官方為準。\n家族三人旅；航班依起
+ 降地當地時間，其餘為日本時間。請核對最終訂單。
+LOCATION:新小岩駅
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%B0%8F%E5%B
+ 2%A9%E9%A7%85
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】新小岩出發，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:18-maihama-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270218T081500
+DTEND;TZID=Asia/Tokyo:20270218T090000
+SUMMARY:【預計】舞濱、園區單軌與入園準備
+DESCRIPTION:抵達後轉園區單軌至 DisneySea，真正入園時間依
+ 官方當日安排。\nDisneySea 是建議園區，尚未代表已購票
+ 。依提供的現行規則，2/18 門票預計 2026/12/18 日本時間 14
+ :00 開賣；票價、開園時間及設施以官方為準。\n家族三
+ 人旅；航班依起降地當地時間，其餘為日本時間。請核
+ 對最終訂單。
+LOCATION:舞浜駅
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E8%88%9E%E6%B5%9C%E9%A
+ 7%85
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】舞濱、園區單軌與入園準備，30 分鐘後
+ 的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:18-park-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270218T090000
+DTEND;TZID=Asia/Tokyo:20270218T120000
+SUMMARY:【預計】東京迪士尼海洋
+DESCRIPTION:先安排最想玩的設施，家人可分流看表演或拍照
+ ，再約時間會合。\nDisneySea 是建議園區，尚未代表已購
+ 票。依提供的現行規則，2/18 門票預計 2026/12/18 日本時間
+  14:00 開賣；票價、開園時間及設施以官方為準。\n家族
+ 三人旅；航班依起降地當地時間，其餘為日本時間。請
+ 核對最終訂單。
+LOCATION:東京ディズニーシー
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%8
+ 3%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%82%B7%E3%83%BC
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】東京迪士尼海洋，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:18-lunch-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270218T120000
+DTEND;TZID=Asia/Tokyo:20270218T133000
+SUMMARY:【預計】午餐與充分休息
+DESCRIPTION:找能坐下的餐廳，下午再依體力安排；預約、候
+ 位與營業以園區 App 為準。\nDisneySea 是建議園區，尚未代
+ 表已購票。依提供的現行規則，2/18 門票預計 2026/12/18 日
+ 本時間 14:00 開賣；票價、開園時間及設施以官方為準。\
+ n家族三人旅；航班依起降地當地時間，其餘為日本時間
+ 。請核對最終訂單。
+LOCATION:依訂單或現場安排
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】午餐與充分休息，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:18-afternoon-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270218T133000
+DTEND;TZID=Asia/Tokyo:20270218T173000
+SUMMARY:【預計】表演、拍照與其他園區
+DESCRIPTION:這是自由活動時段，不是已訂表演場次，依當天
+ 節目與排隊情況調整。\nDisneySea 是建議園區，尚未代表
+ 已購票。依提供的現行規則，2/18 門票預計 2026/12/18 日本
+ 時間 14:00 開賣；票價、開園時間及設施以官方為準。\n
+ 家族三人旅；航班依起降地當地時間，其餘為日本時間
+ 。請核對最終訂單。
+LOCATION:東京ディズニーシー
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E3%8
+ 3%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%82%B7%E3%83%BC
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】表演、拍照與其他園區，30 分鐘後的預
+ 計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:18-return-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270218T180000
+DTEND;TZID=Asia/Tokyo:20270218T193000
+SUMMARY:【預計】晚餐、回新小岩
+DESCRIPTION:視體力提早離園，盡量 20:00 前回住宿。\nDisneySea
+  是建議園區，尚未代表已購票。依提供的現行規則，2/18
+  門票預計 2026/12/18 日本時間 14:00 開賣；票價、開園時間
+ 及設施以官方為準。\n家族三人旅；航班依起降地當地時
+ 間，其餘為日本時間。請核對最終訂單。
+LOCATION:新小岩駅
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%B0%8F%E5%B
+ 2%A9%E9%A7%85
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】晚餐、回新小岩，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:19-gyoen-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270219T100000
+DTEND;TZID=Asia/Tokyo:20270219T113000
+SUMMARY:【預計】新宿御苑賞寒櫻
+DESCRIPTION:從千駄谷門入園，依現場花況選路線；有機會看
+ 到早開寒櫻，但不保證盛開。\n2 月以早開品種為主，花
+ 況不保證。提供資料的現行新宿御苑票價：一般成人 ¥50
+ 0、65 歲以上 ¥250 並需證明；2027 請再核對。\n家族三人
+ 旅；航班依起降地當地時間，其餘為日本時間。請核對
+ 最終訂單。
+LOCATION:新宿御苑 千駄ヶ谷門
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%AE%BF%E5%B
+ E%A1%E8%8B%91%20%E5%8D%83%E9%A7%84%E3%83%B6%E8%B0%B7%E9%96%80
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】新宿御苑賞寒櫻，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:19-lunch-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270219T120000
+DTEND;TZID=Asia/Tokyo:20270219T130000
+SUMMARY:【預計】午餐、坐下休息
+DESCRIPTION:在千駄谷或接續前往的原宿一帶用餐，按離園位
+ 置選店，減少折返。\n2 月以早開品種為主，花況不保證
+ 。提供資料的現行新宿御苑票價：一般成人 ¥500、65 歲
+ 以上 ¥250 並需證明；2027 請再核對。\n家族三人旅；航班
+ 依起降地當地時間，其餘為日本時間。請核對最終訂單
+ 。
+LOCATION:依訂單或現場安排
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】午餐、坐下休息，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:19-omotesando-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270219T133000
+DTEND;TZID=Asia/Tokyo:20270219T153000
+SUMMARY:【預計】表參道、原宿與咖啡廳
+DESCRIPTION:以室內商場和咖啡休息為主，竹下通人多時可省
+ 略。\n2 月以早開品種為主，花況不保證。提供資料的現
+ 行新宿御苑票價：一般成人 ¥500、65 歲以上 ¥250 並需證
+ 明；2027 請再核對。\n家族三人旅；航班依起降地當地時
+ 間，其餘為日本時間。請核對最終訂單。
+LOCATION:表参道ヒルズ
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E8%A1%A8%E5%8F%82%E9%8
+ 1%93%E3%83%92%E3%83%AB%E3%82%BA
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】表參道、原宿與咖啡廳，30 分鐘後的預
+ 計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:19-shibuya-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270219T160000
+DTEND;TZID=Asia/Tokyo:20270219T180000
+SUMMARY:【預計】澀谷商場與食品地下街
+DESCRIPTION:看街景、逛商場，再到食品樓層選晚餐或點心。
+ \n2 月以早開品種為主，花況不保證。提供資料的現行新
+ 宿御苑票價：一般成人 ¥500、65 歲以上 ¥250 並需證明；2
+ 027 請再核對。\n家族三人旅；航班依起降地當地時間，
+ 其餘為日本時間。請核對最終訂單。
+LOCATION:渋谷駅
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%B8%8B%E8%B0%B7%E9%A
+ 7%85
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】澀谷商場與食品地下街，30 分鐘後的預
+ 計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:19-return-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270219T181500
+DTEND;TZID=Asia/Tokyo:20270219T193000
+SUMMARY:【預計】晚餐或回住宿休息
+DESCRIPTION:在澀谷吃飯或買熟食回去，以 19:30 前返回新小
+ 岩為目標。\n2 月以早開品種為主，花況不保證。提供資
+ 料的現行新宿御苑票價：一般成人 ¥500、65 歲以上 ¥250 
+ 並需證明；2027 請再核對。\n家族三人旅；航班依起降地
+ 當地時間，其餘為日本時間。請核對最終訂單。
+LOCATION:新小岩駅
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%B0%8F%E5%B
+ 2%A9%E9%A7%85
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】晚餐或回住宿休息，30 分鐘後的預計行
+ 程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20-toyosu-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270220T103000
+DTEND;TZID=Asia/Tokyo:20270220T123000
+SUMMARY:【預計】豐洲千客萬來、午餐
+DESCRIPTION:逛日式食街，選喜歡的餐點；消費前先看價格和
+ 候位。\n今天依詳細行程集中豐洲、台場。若更想輕鬆逛
+ 在地超市，可整天改成 KAMEIDO CLOCK，不建議兩條路線都跑
+ 。\n家族三人旅；航班依起降地當地時間，其餘為日本時
+ 間。請核對最終訂單。
+LOCATION:豊洲 千客万来
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E8%B1%8A%E6%B4%B2%20%E
+ 5%8D%83%E5%AE%A2%E4%B8%87%E6%9D%A5
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】豐洲千客萬來、午餐，30 分鐘後的預計
+ 行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20-yurikamome-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270220T130000
+DTEND;TZID=Asia/Tokyo:20270220T140000
+SUMMARY:【預計】百合海鷗線沿灣移動
+DESCRIPTION:從市場前一帶搭車往台場，坐著看東京灣與城市
+ 景色。\n今天依詳細行程集中豐洲、台場。若更想輕鬆逛
+ 在地超市，可整天改成 KAMEIDO CLOCK，不建議兩條路線都跑
+ 。\n家族三人旅；航班依起降地當地時間，其餘為日本時
+ 間。請核對最終訂單。
+LOCATION:市場前駅
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E5%B8%82%E5%A0%B4%E5%8
+ 9%8D%E9%A7%85
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】百合海鷗線沿灣移動，30 分鐘後的預計
+ 行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20-divercity-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270220T140000
+DTEND;TZID=Asia/Tokyo:20270220T163000
+SUMMARY:【預計】DiverCity、鋼彈與商場
+DESCRIPTION:到實物大鋼彈周邊拍照，再進商場逛街；展演時
+ 間另看官方公告。\n今天依詳細行程集中豐洲、台場。若
+ 更想輕鬆逛在地超市，可整天改成 KAMEIDO CLOCK，不建議兩
+ 條路線都跑。\n家族三人旅；航班依起降地當地時間，其
+ 餘為日本時間。請核對最終訂單。
+LOCATION:ダイバーシティ東京 プラザ
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E3%83%80%E3%82%A4%E3%8
+ 3%90%E3%83%BC%E3%82%B7%E3%83%86%E3%82%A3%E6%9D%B1%E4%BA%AC%20%E3%83%97%E3%
+ 83%A9%E3%82%B6
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】DiverCity、鋼彈與商場，30 分鐘後的預計
+ 行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20-seaside-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270220T163000
+DTEND;TZID=Asia/Tokyo:20270220T173000
+SUMMARY:【彈性】台場海濱公園
+DESCRIPTION:天氣和體力允許再到海邊走走，冷的話就多留在
+ 商場。\n今天依詳細行程集中豐洲、台場。若更想輕鬆逛
+ 在地超市，可整天改成 KAMEIDO CLOCK，不建議兩條路線都跑
+ 。\n家族三人旅；航班依起降地當地時間，其餘為日本時
+ 間。請核對最終訂單。
+LOCATION:お台場海浜公園
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E5%8F%B0%E5%A
+ 0%B4%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【彈性】台場海濱公園，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20-return-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270220T180000
+DTEND;TZID=Asia/Tokyo:20270220T193000
+SUMMARY:【預計】晚餐、返回新小岩
+DESCRIPTION:經新橋或其他方便路線回程，以 19:30～20:00 回住
+ 宿為目標。\n今天依詳細行程集中豐洲、台場。若更想輕
+ 鬆逛在地超市，可整天改成 KAMEIDO CLOCK，不建議兩條路線
+ 都跑。\n家族三人旅；航班依起降地當地時間，其餘為日
+ 本時間。請核對最終訂單。
+LOCATION:新小岩駅
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%B0%8F%E5%B
+ 2%A9%E9%A7%85
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】晚餐、返回新小岩，30 分鐘後的預計行
+ 程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:21-meet-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270221T123000
+DTEND;TZID=Asia/Tokyo:20270221T130000
+SUMMARY:【待確認】Klook 集合、出發
+DESCRIPTION:集合地址尚未提供，依最終通知提早到達，把地
+ 址和聯絡方式記在備忘。\n22:30 是開始回程，不是抵達東
+ 京！可能接近午夜或凌晨才回市區；12:30 集合地址、最
+ 終下車點與抵達時間仍須確認。\n家族三人旅；航班依起
+ 降地當地時間，其餘為日本時間。請核對最終訂單。
+LOCATION:依訂單或現場安排
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【待確認】Klook 集合、出發，30 分鐘後的預計行
+ 程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:21-ashi-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270221T150500
+DTEND;TZID=Asia/Tokyo:20270221T160500
+SUMMARY:【預計】蘆之湖遊覽船
+DESCRIPTION:約 1 小時湖上行程；乘船港口、船班與天候異動
+ 由旅行團安排。\n22:30 是開始回程，不是抵達東京！可能
+ 接近午夜或凌晨才回市區；12:30 集合地址、最終下車點
+ 與抵達時間仍須確認。\n家族三人旅；航班依起降地當地
+ 時間，其餘為日本時間。請核對最終訂單。
+LOCATION:芦ノ湖 箱根
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E8%8A%A6%E3%83%8E%E6%B
+ 9%96%20%E7%AE%B1%E6%A0%B9
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】蘆之湖遊覽船，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:21-hakone-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270221T162000
+DTEND;TZID=Asia/Tokyo:20270221T172000
+SUMMARY:【預計】箱根神社、平和鳥居
+DESCRIPTION:跟團到湖畔鳥居與神社，依人潮和集合時間控制
+ 拍照停留。\n22:30 是開始回程，不是抵達東京！可能接近
+ 午夜或凌晨才回市區；12:30 集合地址、最終下車點與抵
+ 達時間仍須確認。\n家族三人旅；航班依起降地當地時間
+ ，其餘為日本時間。請核對最終訂單。
+LOCATION:箱根神社
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E7%AE%B1%E6%A0%B9%E7%A
+ 5%9E%E7%A4%BE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】箱根神社、平和鳥居，30 分鐘後的預計
+ 行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:21-beach-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270221T190000
+DTEND;TZID=Asia/Tokyo:20270221T202000
+SUMMARY:【預計】熱海陽光海灘
+DESCRIPTION:觀賞區、晚餐與自由活動依團體安排；夜間海風
+ 冷，先穿好外套。\n22:30 是開始回程，不是抵達東京！可
+ 能接近午夜或凌晨才回市區；12:30 集合地址、最終下車
+ 點與抵達時間仍須確認。\n家族三人旅；航班依起降地當
+ 地時間，其餘為日本時間。請核對最終訂單。
+LOCATION:熱海サンビーチ
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E3%8
+ 2%B5%E3%83%B3%E3%83%93%E3%83%BC%E3%83%81
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】熱海陽光海灘，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:21-fireworks-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270221T202000
+DTEND;TZID=Asia/Tokyo:20270221T204000
+SUMMARY:【預計】熱海海上花火大會
+DESCRIPTION:提供行程載明 20:20～20:40，施放日期及時間仍以
+ 官方、天氣和旅行團通知為準。\n22:30 是開始回程，不是
+ 抵達東京！可能接近午夜或凌晨才回市區；12:30 集合地
+ 址、最終下車點與抵達時間仍須確認。\n家族三人旅；航
+ 班依起降地當地時間，其餘為日本時間。請核對最終訂
+ 單。
+LOCATION:熱海サンビーチ
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E7%86%B1%E6%B5%B7%E3%8
+ 2%B5%E3%83%B3%E3%83%93%E3%83%BC%E3%83%81
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】熱海海上花火大會，30 分鐘後的預計行
+ 程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:21-return-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270221T223000
+DTEND;TZID=Asia/Tokyo:20270221T230000
+SUMMARY:【待確認】開始返回東京（不是抵達）
+DESCRIPTION:此時是回程起點，抵達時間未定。行事曆區塊僅
+ 提醒發車，不代表車程只有 30 分鐘。\n22:30 是開始回程
+ ，不是抵達東京！可能接近午夜或凌晨才回市區；12:30 
+ 集合地址、最終下車點與抵達時間仍須確認。\n家族三人
+ 旅；航班依起降地當地時間，其餘為日本時間。請核對
+ 最終訂單。
+LOCATION:依訂單或現場安排
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【待確認】開始返回東京（不是抵達），30 分鐘
+ 後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22-pack-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270222T090000
+DTEND;TZID=Asia/Tokyo:20270222T103000
+SUMMARY:【預計】早餐、收拾行李
+DESCRIPTION:確認護照、機票、行李重量，把今天要用的物品
+ 留在隨身包。\n家人 JL809 18:05 成田 T2 起飛，21:15 台灣時
+ 間抵達。你 2/22～2/25 的住宿待確認，這班機不是你的返
+ 程。\n家族 → 一人旅；航班依起降地當地時間，其餘為
+ 日本時間。請核對最終訂單。
+LOCATION:依訂單或現場安排
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】早餐、收拾行李，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22-checkout-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270222T110000
+DTEND;TZID=Asia/Tokyo:20270222T113000
+SUMMARY:【預計】新小岩住宿退房
+DESCRIPTION:離開前檢查充電器、冰箱和保管物品，退房時間
+ 依提供資料為 11:00。\n家人 JL809 18:05 成田 T2 起飛，21:15 
+ 台灣時間抵達。你 2/22～2/25 的住宿待確認，這班機不是
+ 你的返程。\n家族 → 一人旅；航班依起降地當地時間，
+ 其餘為日本時間。請核對最終訂單。
+LOCATION:新小岩駅
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%B0%8F%E5%B
+ 2%A9%E9%A7%85
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】新小岩住宿退房，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22-tokyo-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270222T113000
+DTEND;TZID=Asia/Tokyo:20270222T133000
+SUMMARY:【預計】東京站、大丸、KITTE 與午餐
+DESCRIPTION:先寄存行李，再逛食品樓層、車站一番街和伴手
+ 禮；依寄物和交通時間縮短。\n家人 JL809 18:05 成田 T2 起
+ 飛，21:15 台灣時間抵達。你 2/22～2/25 的住宿待確認，這
+ 班機不是你的返程。\n家族 → 一人旅；航班依起降地當
+ 地時間，其餘為日本時間。請核對最終訂單。
+LOCATION:東京駅
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%A
+ 7%85
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】東京站、大丸、KITTE 與午餐，30 分鐘後
+ 的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22-family-transit-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270222T140000
+DTEND;TZID=Asia/Tokyo:20270222T153000
+SUMMARY:【預計】家人前往成田機場
+DESCRIPTION:依已確認的電車或巴士路線出發，留足候車、步
+ 行與行李處理時間。\n家人 JL809 18:05 成田 T2 起飛，21:15 
+ 台灣時間抵達。你 2/22～2/25 的住宿待確認，這班機不是
+ 你的返程。\n家族 → 一人旅；航班依起降地當地時間，
+ 其餘為日本時間。請核對最終訂單。
+LOCATION:成田空港 第2ターミナル
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%88%90%E7%94%B0%E7%A
+ 9%BA%E6%B8%AF%20%E7%AC%AC2%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】家人前往成田機場，30 分鐘後的預計行
+ 程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22-family-airport-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270222T153000
+DTEND;TZID=Asia/Tokyo:20270222T173000
+SUMMARY:【預計】家人抵達 T2、辦理登機
+DESCRIPTION:以 15:30 左右抵達為目標，實際報到與托運截止
+ 時間依航空公司。\n家人 JL809 18:05 成田 T2 起飛，21:15 台
+ 灣時間抵達。你 2/22～2/25 的住宿待確認，這班機不是你
+ 的返程。\n家族 → 一人旅；航班依起降地當地時間，其
+ 餘為日本時間。請核對最終訂單。
+LOCATION:成田空港 第2ターミナル
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%88%90%E7%94%B0%E7%A
+ 9%BA%E6%B8%AF%20%E7%AC%AC2%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】家人抵達 T2、辦理登機，30 分鐘後的預
+ 計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:22-family-flight-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270222T180500
+DTEND;TZID=Asia/Taipei:20270222T211500
+SUMMARY:【航班】家人 JL809｜成田 T2 → 桃園 T2
+DESCRIPTION:18:05 日本時間起飛，21:15 台灣時間抵達。你留在
+ 日本，晚餐後休息，準備隔天鎌倉。\n家人 JL809 18:05 成
+ 田 T2 起飛，21:15 台灣時間抵達。你 2/22～2/25 的住宿待確
+ 認，這班機不是你的返程。\n家族 → 一人旅；航班依起
+ 降地當地時間，其餘為日本時間。請核對最終訂單。
+LOCATION:成田空港 第2ターミナル
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%88%90%E7%94%B0%E7%A
+ 9%BA%E6%B8%AF%20%E7%AC%AC2%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:【航班】家人 JL809｜成田 T2 → 桃園 T2，起飛前 
+ 3 小時提醒。
+END:VALARM
+END:VEVENT
+END:VCALENDAR

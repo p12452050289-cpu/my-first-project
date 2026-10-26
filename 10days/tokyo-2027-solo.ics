@@ -1,0 +1,500 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tokyo Travel Journal//Ten Days 2027//ZH-TW
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:東京・10天9夜 個人旅
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+X-LIC-LOCATION:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:22-solo-checkin-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270222T160000
+DTEND;TZID=Asia/Tokyo:20270222T170000
+SUMMARY:【待確認】你前往個人旅行的新住宿
+DESCRIPTION:2/22～2/25 共 3 晚待預訂或確認。16:00 是規劃時段
+ ，實際入住時間與地址依新住宿。\n家人 JL809 18:05 成田 T
+ 2 起飛，21:15 台灣時間抵達。你 2/22～2/25 的住宿待確認
+ ，這班機不是你的返程。\n家族 → 一人旅；航班依起降
+ 地當地時間，其餘為日本時間。請核對最終訂單。
+LOCATION:依訂單或現場安排
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【待確認】你前往個人旅行的新住宿，30 分鐘後
+ 的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23-market-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270223T093000
+DTEND;TZID=Asia/Tokyo:20270223T103000
+SUMMARY:【預計】鎌倉農協連即賣所
+DESCRIPTION:看看在地蔬菜、食品與市場生活；各攤位營業時
+ 間可能不同。\n2/23 是日本天皇誕生日國定假日，鎌倉可
+ 能擁擠。書中文具店並非可直接入內參觀的實體店，店
+ 家營業與候位仍須確認。\n一人自由行；航班依起降地當
+ 地時間，其餘為日本時間。請核對最終訂單。
+LOCATION:鎌倉市農協連即売所
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E9%8E%8C%E5%80%89%E5%B
+ 8%82%E8%BE%B2%E5%8D%94%E9%80%A3%E5%8D%B3%E5%A3%B2%E6%89%80
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】鎌倉農協連即賣所，30 分鐘後的預計行
+ 程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23-jufukuji-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270223T103000
+DTEND;TZID=Asia/Tokyo:20270223T111500
+SUMMARY:【預計】壽福寺
+DESCRIPTION:走訪參道與開放區域，遵守現場參拜與攝影規範
+ 。\n2/23 是日本天皇誕生日國定假日，鎌倉可能擁擠。書
+ 中文具店並非可直接入內參觀的實體店，店家營業與候
+ 位仍須確認。\n一人自由行；航班依起降地當地時間，其
+ 餘為日本時間。請核對最終訂單。
+LOCATION:寿福寺 鎌倉
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E5%AF%BF%E7%A6%8F%E5%A
+ F%BA%20%E9%8E%8C%E5%80%89
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】壽福寺，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23-oxymoron-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270223T113000
+DTEND;TZID=Asia/Tokyo:20270223T123000
+SUMMARY:【預計】OXYMORON 咖哩與布丁
+DESCRIPTION:以小町店為午餐選擇，候位、預約與營業需行前
+ 確認，目前未代訂座位。\n2/23 是日本天皇誕生日國定假
+ 日，鎌倉可能擁擠。書中文具店並非可直接入內參觀的
+ 實體店，店家營業與候位仍須確認。\n一人自由行；航班
+ 依起降地當地時間，其餘為日本時間。請核對最終訂單
+ 。
+LOCATION:OXYMORON komachi
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=OXYMORON%20komachi
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】OXYMORON 咖哩與布丁，30 分鐘後的預計行
+ 程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23-stationery-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270223T123000
+DTEND;TZID=Asia/Tokyo:20270223T133000
+SUMMARY:【預計】鎌倉コトリ、豊島屋
+DESCRIPTION:逛文具、挑信紙，再選鳩サブレー伴手禮。兩店
+ 不相鄰，可依午餐候位調整造訪順序。\n2/23 是日本天皇
+ 誕生日國定假日，鎌倉可能擁擠。書中文具店並非可直
+ 接入內參觀的實體店，店家營業與候位仍須確認。\n一人
+ 自由行；航班依起降地當地時間，其餘為日本時間。請
+ 核對最終訂單。
+LOCATION:鎌倉コトリ
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E9%8E%8C%E5%80%89%E3%8
+ 2%B3%E3%83%88%E3%83%AA
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】鎌倉コトリ、豊島屋，30 分鐘後的預計
+ 行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23-hachiman-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270223T133000
+DTEND;TZID=Asia/Tokyo:20270223T141500
+SUMMARY:【預計】鶴岡八幡宮
+DESCRIPTION:沿若宮大路一帶前往八幡宮，慢慢看境內建築。
+ \n2/23 是日本天皇誕生日國定假日，鎌倉可能擁擠。書中
+ 文具店並非可直接入內參觀的實體店，店家營業與候位
+ 仍須確認。\n一人自由行；航班依起降地當地時間，其餘
+ 為日本時間。請核對最終訂單。
+LOCATION:鶴岡八幡宮
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E5%B2%A1%E5%8
+ 5%AB%E5%B9%A1%E5%AE%AE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】鶴岡八幡宮，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23-egara-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270223T143000
+DTEND;TZID=Asia/Tokyo:20270223T151500
+SUMMARY:【預計】荏柄天神社
+DESCRIPTION:前往東側街區，視體力步行或搭公車；花況隨當
+ 年天氣。\n2/23 是日本天皇誕生日國定假日，鎌倉可能擁
+ 擠。書中文具店並非可直接入內參觀的實體店，店家營
+ 業與候位仍須確認。\n一人自由行；航班依起降地當地時
+ 間，其餘為日本時間。請核對最終訂單。
+LOCATION:荏柄天神社
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E8%8D%8F%E6%9F%84%E5%A
+ 4%A9%E7%A5%9E%E7%A4%BE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】荏柄天神社，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23-kamakuragu-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270223T153000
+DTEND;TZID=Asia/Tokyo:20270223T170000
+SUMMARY:【彈性】鎌倉宮，或回小町通自由散步
+DESCRIPTION:有體力就繼續走鎌倉宮，累了回小町通喝咖啡。
+ 兩者擇一，約 17:00 離開鎌倉。\n2/23 是日本天皇誕生日國
+ 定假日，鎌倉可能擁擠。書中文具店並非可直接入內參
+ 觀的實體店，店家營業與候位仍須確認。\n一人自由行；
+ 航班依起降地當地時間，其餘為日本時間。請核對最終
+ 訂單。
+LOCATION:鎌倉宮
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E9%8E%8C%E5%80%89%E5%A
+ E%AE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【彈性】鎌倉宮，或回小町通自由散步，30 分鐘
+ 後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24-exhibition-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270224T093000
+DTEND;TZID=Asia/Tokyo:20270224T120000
+SUMMARY:【預計】東京都美術館・奧塞特展
+DESCRIPTION:What a Wonderful World: Masterworks from the Musée d’Orsay
+ 。依提供展館與展期安排，購票後保存 QR Code；目前尚未
+ 代表已購票。\n依提供資料，特展展期 2026/11/14～2027/3/28
+ ，不需指定入場日或時段；請從官方展覽頁核對最新開
+ 館、售票與排隊規則。\n一人自由行；航班依起降地當地
+ 時間，其餘為日本時間。請核對最終訂單。
+LOCATION:東京都美術館
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%8
+ 3%BD%E7%BE%8E%E8%A1%93%E9%A4%A8
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】東京都美術館・奧塞特展，30 分鐘後的
+ 預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24-lunch-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270224T120000
+DTEND;TZID=Asia/Tokyo:20270224T130000
+SUMMARY:【預計】上野午餐與咖啡
+DESCRIPTION:看展後先休息，不必立刻趕下個景點，依候位選
+ 附近餐廳。\n依提供資料，特展展期 2026/11/14～2027/3/28，
+ 不需指定入場日或時段；請從官方展覽頁核對最新開館
+ 、售票與排隊規則。\n一人自由行；航班依起降地當地時
+ 間，其餘為日本時間。請核對最終訂單。
+LOCATION:依訂單或現場安排
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】上野午餐與咖啡，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24-park-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270224T130000
+DTEND;TZID=Asia/Tokyo:20270224T143000
+SUMMARY:【預計】上野公園、不忍池
+DESCRIPTION:沿公園慢慢走，看展時間較長就縮短這一段，依
+ 精神狀態決定接續谷中。\n依提供資料，特展展期 2026/11/
+ 14～2027/3/28，不需指定入場日或時段；請從官方展覽頁核
+ 對最新開館、售票與排隊規則。\n一人自由行；航班依起
+ 降地當地時間，其餘為日本時間。請核對最終訂單。
+LOCATION:不忍池 上野
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E4%B8%8D%E5%BF%8D%E6%B
+ 1%A0%20%E4%B8%8A%E9%87%8E
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】上野公園、不忍池，30 分鐘後的預計行
+ 程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24-yanaka-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270224T150000
+DTEND;TZID=Asia/Tokyo:20270224T170000
+SUMMARY:【預計】谷中銀座、谷根千街區
+DESCRIPTION:逛雜貨、食品與老街巷弄，咖啡廳有位置就坐一
+ 下。\n依提供資料，特展展期 2026/11/14～2027/3/28，不需指
+ 定入場日或時段；請從官方展覽頁核對最新開館、售票
+ 與排隊規則。\n一人自由行；航班依起降地當地時間，其
+ 餘為日本時間。請核對最終訂單。
+LOCATION:谷中銀座商店街
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E8%B0%B7%E4%B8%AD%E9%8
+ A%80%E5%BA%A7%E5%95%86%E5%BA%97%E8%A1%97
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】谷中銀座、谷根千街區，30 分鐘後的預
+ 計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24-dinner-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270224T173000
+DTEND;TZID=Asia/Tokyo:20270224T190000
+SUMMARY:【預計】晚餐、回住宿
+DESCRIPTION:約 18:30～19:00 回住宿，整理隔天移動到成田的行
+ 李。\n依提供資料，特展展期 2026/11/14～2027/3/28，不需指
+ 定入場日或時段；請從官方展覽頁核對最新開館、售票
+ 與排隊規則。\n一人自由行；航班依起降地當地時間，其
+ 餘為日本時間。請核對最終訂單。
+LOCATION:依訂單或現場安排
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】晚餐、回住宿，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:25-sakura-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270225T093000
+DTEND;TZID=Asia/Tokyo:20270225T110000
+SUMMARY:【預計】舊中川河津櫻
+DESCRIPTION:在平井一帶沿河散步，依花況找櫻花與晴空塔同
+ 框角度；花況未到就當河岸散步。\n河津櫻是否開花須查
+ 花況。2/25 晚的成田飯店與清晨接駁待確認；明天 09:10 
+ 起飛，住宿安排比多逛一家店更優先。\n一人自由行；航
+ 班依起降地當地時間，其餘為日本時間。請核對最終訂
+ 單。
+LOCATION:旧中川 河津桜
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%97%A7%E4%B8%AD%E5%B
+ 7%9D%20%E6%B2%B3%E6%B4%A5%E6%A1%9C
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】舊中川河津櫻，30 分鐘後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:25-kameido-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270225T113000
+DTEND;TZID=Asia/Tokyo:20270225T130000
+SUMMARY:【預計】龜戶午餐、KAMEIDO CLOCK
+DESCRIPTION:逛商場和 Life 超市，選不需冷藏的伴手禮，留意
+ 行李重量。\n河津櫻是否開花須查花況。2/25 晚的成田飯
+ 店與清晨接駁待確認；明天 09:10 起飛，住宿安排比多逛
+ 一家店更優先。\n一人自由行；航班依起降地當地時間，
+ 其餘為日本時間。請核對最終訂單。
+LOCATION:KAMEIDO CLOCK
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=KAMEIDO%20CLOCK
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】龜戶午餐、KAMEIDO CLOCK，30 分鐘後的預
+ 計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:25-kinshicho-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270225T130000
+DTEND;TZID=Asia/Tokyo:20270225T150000
+SUMMARY:【預計】錦糸町最後購物
+DESCRIPTION:優先買清單上的物品，若取行李與交通較花時間
+ 就提早結束。\n河津櫻是否開花須查花況。2/25 晚的成田
+ 飯店與清晨接駁待確認；明天 09:10 起飛，住宿安排比多
+ 逛一家店更優先。\n一人自由行；航班依起降地當地時間
+ ，其餘為日本時間。請核對最終訂單。
+LOCATION:錦糸町駅
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E9%8C%A6%E7%B3%B8%E7%9
+ 4%BA%E9%A7%85
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】錦糸町最後購物，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:25-luggage-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270225T150000
+DTEND;TZID=Asia/Tokyo:20270225T170000
+SUMMARY:【待確認】取行李、前往成田周邊
+DESCRIPTION:先回住宿取行李，再依飯店地址與接駁方式移動
+ ，因新住宿未定而不固定車次。\n河津櫻是否開花須查花
+ 況。2/25 晚的成田飯店與清晨接駁待確認；明天 09:10 起
+ 飛，住宿安排比多逛一家店更優先。\n一人自由行；航班
+ 依起降地當地時間，其餘為日本時間。請核對最終訂單
+ 。
+LOCATION:依訂單或現場安排
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【待確認】取行李、前往成田周邊，30 分鐘後的
+ 預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:25-hotel-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270225T180000
+DTEND;TZID=Asia/Tokyo:20270225T200000
+SUMMARY:【待確認】機場飯店入住、晚餐與整理
+DESCRIPTION:飯店待預訂。入住時再確認明晨接駁時間、乘車
+ 處與到 T2 時間，設好起床鬧鐘。\n河津櫻是否開花須查
+ 花況。2/25 晚的成田飯店與清晨接駁待確認；明天 09:10 
+ 起飛，住宿安排比多逛一家店更優先。\n一人自由行；航
+ 班依起降地當地時間，其餘為日本時間。請核對最終訂
+ 單。
+LOCATION:依訂單或現場安排
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【待確認】機場飯店入住、晚餐與整理，30 分鐘
+ 後的預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:26-checkout-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270226T054500
+DTEND;TZID=Asia/Tokyo:20270226T061500
+SUMMARY:【預計】起床、飯店退房
+DESCRIPTION:05:45～06:15 是建議準備時段，依實際接駁班次調
+ 整。\nJL8663：09:10 成田 T2 起飛（日本時間），12:15 桃園 T
+ 2 抵達（台灣時間）。06:15～06:45 是建議接駁範圍，不是
+ 已確認班次。\n一人自由行；航班依起降地當地時間，其
+ 餘為日本時間。請核對最終訂單。
+LOCATION:依訂單或現場安排
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】起床、飯店退房，30 分鐘後的預計行程
+ 。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:26-shuttle-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270226T061500
+DTEND;TZID=Asia/Tokyo:20270226T064500
+SUMMARY:【待確認】飯店接駁前往成田 T2
+DESCRIPTION:接駁班次尚未確認，預訂飯店時就核對；此處只
+ 是希望搭上的時段。\nJL8663：09:10 成田 T2 起飛（日本時
+ 間），12:15 桃園 T2 抵達（台灣時間）。06:15～06:45 是建
+ 議接駁範圍，不是已確認班次。\n一人自由行；航班依起
+ 降地當地時間，其餘為日本時間。請核對最終訂單。
+LOCATION:依訂單或現場安排
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【待確認】飯店接駁前往成田 T2，30 分鐘後的預
+ 計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:26-checkin-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270226T063000
+DTEND;TZID=Asia/Tokyo:20270226T083000
+SUMMARY:【預計】抵達 T2、登機報到與托運
+DESCRIPTION:以 06:30～07:00 抵達為目標，完成報到、托運和安
+ 檢後，依登機證前往登機門。\nJL8663：09:10 成田 T2 起飛
+ （日本時間），12:15 桃園 T2 抵達（台灣時間）。06:15～06
+ :45 是建議接駁範圍，不是已確認班次。\n一人自由行；
+ 航班依起降地當地時間，其餘為日本時間。請核對最終
+ 訂單。
+LOCATION:成田空港 第2ターミナル
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%88%90%E7%94%B0%E7%A
+ 9%BA%E6%B8%AF%20%E7%AC%AC2%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:【預計】抵達 T2、登機報到與托運，30 分鐘後的
+ 預計行程。
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:26-flight-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270226T091000
+DTEND;TZID=Asia/Taipei:20270226T121500
+SUMMARY:【航班】JL8663｜成田 T2 → 桃園 T2
+DESCRIPTION:09:10 日本時間起飛，12:15 台灣時間抵達。入境、
+ 領行李，結束這次 10 天 9 夜旅行。\nJL8663：09:10 成田 T2 
+ 起飛（日本時間），12:15 桃園 T2 抵達（台灣時間）。06:1
+ 5～06:45 是建議接駁範圍，不是已確認班次。\n一人自由
+ 行；航班依起降地當地時間，其餘為日本時間。請核對
+ 最終訂單。
+LOCATION:成田空港 第2ターミナル
+STATUS:TENTATIVE
+URL:https://www.google.com/maps/search/?api=1&query=%E6%88%90%E7%94%B0%E7%A
+ 9%BA%E6%B8%AF%20%E7%AC%AC2%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:【航班】JL8663｜成田 T2 → 桃園 T2，起飛前 3 小
+ 時提醒。
+END:VALARM
+END:VEVENT
+END:VCALENDAR

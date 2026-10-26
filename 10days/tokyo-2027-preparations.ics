@@ -1,0 +1,147 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tokyo Travel Journal//Ten Days 2027//ZH-TW
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:東京旅行・預訂與行前提醒
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+X-LIC-LOCATION:Asia/Tokyo
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Asia/Taipei
+X-LIC-LOCATION:Asia/Taipei
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:prep-book-solo-stay-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270201T090000
+DTEND;TZID=Asia/Tokyo:20270201T091500
+SUMMARY:確認 2/22～2/25 個人住宿
+DESCRIPTION:3 晚住宿待確認，優先考慮新小岩、上野或東京
+ 站周邊。2/1 是建議檢查日，不是訂房截止。\n時間以日
+ 本時間顯示；購票規則依官方公告，其他行前確認日期
+ 為建議安排。
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:確認 2/22～2/25 個人住宿
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:prep-book-airport-stay-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270201T093000
+DTEND;TZID=Asia/Tokyo:20270201T094500
+SUMMARY:預訂 2/25 成田機場附近飯店
+DESCRIPTION:確認隔日清晨接駁可於 06:30～07:00 抵達 T2。2/1 
+ 是建議檢查日，實際依房況。\n時間以日本時間顯示；購
+ 票規則依官方公告，其他行前確認日期為建議安排。
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:預訂 2/25 成田機場附近飯店
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:prep-book-orsay-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20261113T235900
+DTEND;TZID=Asia/Tokyo:20261114T001400
+SUMMARY:11/13 前購買奧塞特展預售票
+DESCRIPTION:依提供資料，預售至 2026/11/13 23:59 JST。從東京都
+ 美術館展覽頁進入正式售票管道，價格與資格以官方為
+ 準。\n時間以日本時間顯示；購票規則依官方公告，其他
+ 行前確認日期為建議安排。
+STATUS:TENTATIVE
+URL:https://www.tobikan.jp/exhibition/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:11/13 前購買奧塞特展預售票
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:prep-book-disney-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20261218T140000
+DTEND;TZID=Asia/Tokyo:20261218T141500
+SUMMARY:12/18 起確認並購買 2/18 迪士尼票
+DESCRIPTION:依提供售票規則，2026/12/18 14:00 JST 開賣。須選日
+ 期與園區；海洋是行程建議，尚未代表已購票。\n時間以
+ 日本時間顯示；購票規則依官方公告，其他行前確認日
+ 期為建議安排。
+STATUS:TENTATIVE
+URL:https://www.tokyodisneyresort.jp/ticket/
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:12/18 起確認並購買 2/18 迪士尼票
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:prep-book-klook-return-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270214T090000
+DTEND;TZID=Asia/Tokyo:20270214T091500
+SUMMARY:向 Klook 確認 2/21 集合與深夜返程
+DESCRIPTION:確認集合地址、東京下車點與抵達時間；22:30 是
+ 開始回程。2/14 是建議確認日，最終依團體通知。\n時間
+ 以日本時間顯示；購票規則依官方公告，其他行前確認
+ 日期為建議安排。
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:向 Klook 確認 2/21 集合與深夜返程
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:prep-check-sakura-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270210T090000
+DTEND;TZID=Asia/Tokyo:20270210T091500
+SUMMARY:出發前 7～10 天查早櫻花況
+DESCRIPTION:2/10 是建議檢查日。查新宿御苑寒櫻與舊中川河
+ 津櫻，依花況調整停留時間。\n時間以日本時間顯示；購
+ 票規則依官方公告，其他行前確認日期為建議安排。
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:出發前 7～10 天查早櫻花況
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:prep-check-family-airport-ten-day-v2@tokyo-journal.local
+DTSTAMP:20261026T103749Z
+DTSTART;TZID=Asia/Tokyo:20270220T090000
+DTEND;TZID=Asia/Tokyo:20270220T091500
+SUMMARY:確認家人 2/22 機場交通與行李
+DESCRIPTION:確認大型行李寄存與機場交通。2/20 是建議檢查
+ 日，家人目標 15:30 抵達成田 T2。\n時間以日本時間顯示
+ ；購票規則依官方公告，其他行前確認日期為建議安排
+ 。
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:確認家人 2/22 機場交通與行李
+END:VALARM
+END:VEVENT
+END:VCALENDAR
